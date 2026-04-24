@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.DiscountService;
+import org.example.TaxService;
+
 public class App {
 
     public static void main(String[] args) {
@@ -16,19 +19,8 @@ public class App {
             subtotal += prices[i] * quantities[i];
         }
 
-        double discount = 0;
-
-        if (discountCode.equals("SAVE10")) {
-            discount = subtotal * 0.1;
-        } else if (discountCode.equals("SAVE20")) {
-            discount = subtotal * 0.2;
-        }
-
-        if (customerType.equals("VIP")) {
-            discount += subtotal * 0.05;
-        }
-
-        double tax = (subtotal - discount) * 0.19;
+        double discount = DiscountService.calculateDiscount(subtotal, discountCode, customerType);
+        double tax = TaxService.calculateTax(subtotal - discount);
 
         double finalPrice = subtotal - discount + tax;
 
