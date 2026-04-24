@@ -1,5 +1,13 @@
 # 💰 Pricing Engine Lab
-//# 💰 Pricing Engine Lab
+
+![Java](https://img.shields.io/badge/Java-21-blue)
+![Gradle](https://img.shields.io/badge/Gradle-Build-green)
+![JUnit](https://img.shields.io/badge/Tests-JUnit5-orange)
+![CI](https://github.com/bicho-dr/PricingEngineLab/actions/workflows/ci.yml/badge.svg)
+
+---
+# 💰 Pricing Engine Lab
+
 
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![Gradle](https://img.shields.io/badge/Gradle-Build-green)
