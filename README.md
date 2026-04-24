@@ -1,4 +1,10 @@
 # 💰 Pricing Engine Lab
+//# 💰 Pricing Engine Lab
+
+![Java](https://img.shields.io/badge/Java-21-blue)
+![Gradle](https://img.shields.io/badge/Gradle-Build-green)
+![JUnit](https://img.shields.io/badge/Tests-JUnit5-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 A simple Java project demonstrating a **Pricing & Discount Engine** built with Gradle, JUnit testing, and clean code refactoring principles.
 
